@@ -21,7 +21,7 @@ model.fit(df['text'], df['label'])
 
 # 3. Website UI
 st.title("🚨 AI Spam Guard")
-st.write("Developed by: *Nirmal* | SE Mechanical")
+st.write("Developed by: *sumit* | SE Mechanical")
 
 user_msg = st.text_input("Enter message to scan:")
 if st.button("Scan"):
